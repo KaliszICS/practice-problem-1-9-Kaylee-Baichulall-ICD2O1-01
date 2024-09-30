@@ -1,25 +1,24 @@
 
 
 def q1(): 
-  #Write Assignment code here
-
+  print("\"Hello World\"")
 
 def q2(): 
-  #Write Assignment code here
-
+  userWord = input("Input a word: ")
+  print(userWord.lower())
+  print(userWord.upper())
 
 def q3(): 
-  #Write Assignment code here
-
+  userWord = input("Input a word that is at least 5 letters long: ")
+  print(userWord[1:4])
 
 def q4(): 
-  #Write Assignment code here
-
+  userWord = input("Input a word: ")
+  print(userWord.index("o"))
 
 def q5(): 
-  #Write Assignment code here
-
-
+  userWord = input("Input a word: ")
+  print(len(userWord))
 
 #Do not alter the following code
 #Comment out the following code when running your tests
